@@ -29,7 +29,7 @@ docker_container image do
   detach detach
   port http_port
   port transport_port
-  restart 'always'
+  opt '--restart=always'
   container_name container_name
   volume volume 
 end
