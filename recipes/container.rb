@@ -1,8 +1,7 @@
 # Variables
 image = node[:composer][:docker][:image_name]
 image_tag = node[:composer][:docker][:image_tag]
-http_port = node[:composer][:docker][:http_port]
-transport_port = node[:composer][:docker][:transport_port]
+port = node[:composer][:docker][:port]
 detach = node[:composer][:docker][:detach]
 container_name = node[:composer][:docker][:container_name]
 volume = node[:composer][:docker][:volume]
@@ -27,8 +26,7 @@ end
 # Run container
 docker_container image do
   detach detach
-  port http_port
-  port transport_port
+  port port
   container_name container_name
   volume volume 
 end
