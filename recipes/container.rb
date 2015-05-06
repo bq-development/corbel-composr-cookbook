@@ -24,7 +24,8 @@ docker_image image do
 end
 
 # Run container
-docker_container image do
+docker_container container_name do
+  image "#{image}:#{image_tag}"
   detach detach
   port port
   container_name container_name
