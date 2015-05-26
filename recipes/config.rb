@@ -31,7 +31,10 @@ template "#{dir}/config.json" do
     :client_id => conf[:client_id],
     :client_secret => conf[:client_secret],
     :scopes => conf[:scopes],
-    :urlbase => conf[:urlbase]
+    :urlbase => conf[:urlbase],
+    :loglevel => conf[:loglevel],
+    :logfile => conf[:logfile],
+    :syslog => conf[:syslog]
   })
 
 end
