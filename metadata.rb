@@ -4,4 +4,4 @@ license          'All rights reserved'
 description      'Configures composer config.json'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 depends			 'docker'
-version          '0.1.5'
+version          '0.1.8'
