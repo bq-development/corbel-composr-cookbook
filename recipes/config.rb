@@ -28,6 +28,7 @@ template "#{dir}/config.json" do
     :rabbitmq_username => conf[:rabbitmq_username],
     :rabbitmq_password => conf[:rabbitmq_password],
     :rabbitmq_reconntimeout => conf[:rabbitmq_reconntimeout],
+    :rabbitmq_event => conf[:rabbitmq_event],
     :client_id => conf[:client_id],
     :client_secret => conf[:client_secret],
     :scopes => conf[:scopes],
