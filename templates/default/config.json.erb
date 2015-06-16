@@ -3,9 +3,9 @@
     "rabbitmq.port": "<%= @rabbitmq_port %>",
     "rabbitmq.username": "<%= @rabbitmq_username %>",
     "rabbitmq.password": "<%= @rabbitmq_password %>",
-    "rabbitmq.reconntimeout": "<%= @rabbitmq_reconntimeout %>",
+    "rabbitmq.reconntimeout": <%= @rabbitmq_reconntimeout %>,
     "rabbitmq.event": "<%= @rabbitmq_event %>",
-    "bootstrap.retrytimeout": "<%= @bootstrap_retrytimeout %>",
+    "bootstrap.retrytimeout": <%= @bootstrap_retrytimeout %>,
 
     "corbel.composer.credentials": {
         "clientId": "<%= @client_id %>",
@@ -19,5 +19,5 @@
 
     "logLevel": "<%= @loglevel %>",
     "logFile": "<%= @logfile %>",
-    "syslog": "<%= @syslog %>"
+    "syslog": <%= @syslog %>
 }
