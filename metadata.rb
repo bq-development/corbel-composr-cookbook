@@ -1,7 +1,7 @@
-name             'composer'
+name             'composr-cookbook'
 maintainer       'BQ'
 license          'All rights reserved'
-description      'Configures composer config.json'
+description      'Cookbook for composr containers'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-depends			 'docker'
-version          '0.1.11'
+depends 		 'cron', '1.6.1'
+version          '0.0.1'
