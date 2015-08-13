@@ -1,4 +1,4 @@
-name             'composr-cookbook'
+name             'corbel-composer-cookbook'
 maintainer       'BQ'
 license          'All rights reserved'
 description      'Cookbook for composr containers'
